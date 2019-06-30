@@ -1,0 +1,32 @@
+#contador {
+	width: 200px;
+	height: 200px;	
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%)
+}
+
+#cabecalho {
+	width: 200px;
+	height: 50px;
+	background: black;
+	font-size: 12pt;	
+	color: white;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+#corpo {
+	width: 200px;
+	height: 150px;
+	background: green;
+	font-size: 90pt;
+	color: white;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;	
+}
+
+

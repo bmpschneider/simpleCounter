@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Simple Counter</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript">
+
+			var tempo = 0		
+			var cronometro = setInterval(function(){
+
+				tempo+=1
+
+				if(tempo ==100) {						
+					tempo=1
+					document.getElementById('cronometro').innerHTML = tempo
+				} else {
+				document.getElementById('cronometro').innerHTML = tempo //valor contido entre as tags	
+				} 
+			}, 1000)
+		</script>
+	</head>
+
+	<body>
+		<div id="contador">
+			<div id="cabecalho"><p>Let's count them up!</p></div>
+			<div id="corpo"><span id="cronometro"></span></div>
+		</div>
+	</body>
+</html>
